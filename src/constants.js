@@ -1,0 +1,21 @@
+const NO_CIRCLES = 16;
+
+const NO_PLAYER = 0;
+const PLAYER_1 = 1;
+const PLAYER_2 = 2;
+
+const GAME_STATE_IDLE = 0;
+const GAME_STATE_PLAYING = 1;
+const GAME_STATE_WIN = 2;
+const GAME_STATE_DRAW = 3;
+
+export {
+    NO_CIRCLES,
+    NO_PLAYER,
+    PLAYER_1,
+    PLAYER_2,
+    GAME_STATE_IDLE,
+    GAME_STATE_PLAYING,
+    GAME_STATE_WIN,
+    GAME_STATE_DRAW,
+  };
